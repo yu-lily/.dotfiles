@@ -52,7 +52,7 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 
 # --- 3. Install Claude Code ---
 echo "Installing Claude Code..."
-curl -fsSL https://claude.ai/install.sh | sh
+curl -fsSL https://claude.ai/install.sh | bash
 
 # --- 4. Symlink config packages ---
 echo "Linking config files..."
