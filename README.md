@@ -1,7 +1,5 @@
 # .dotfiles
-Installation:
-```
-cd ~
-git clone https://github.com/yu-lily/.dotfiles.git
-(cd ~/.dotfiles && stow -t ~ */)
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/yu-lily/.dotfiles/main/install.sh | bash
 ```
